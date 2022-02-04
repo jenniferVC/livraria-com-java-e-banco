@@ -1,7 +1,7 @@
 # projeto-livraria-java-e-banco
 ## Livraria
 
-Com o objetivo de abstrair conceitos de Orientação a Objetos, desenvolvi esse projeto de livraria com java e banco de dados.
+Com o objetivo de abstrair conceitos de Orientação a Objetos, desenvolvi esse projeto de livraria com java e banco de dados, utilizando o padrão DAO para fazer as inserções, atualizações e exclusões dos objetos.
 
 ## Technology
 
