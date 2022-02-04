@@ -105,6 +105,7 @@ public class LivrariaEXE {
                 int temconta = scanner.nextInt();
                 Account accountOld = new Account();
                 Account accountNew = new Account();
+
                 // SE tiver conta
                 if (temconta == 1) {
                     System.out.println("Informe seu nome:");
@@ -131,6 +132,7 @@ public class LivrariaEXE {
                             String data = scanner.next();
                             System.out.println("Informe a forma do pagamento débito ou crédito:");
                             String pay = scanner.next();
+
                             // ---- Criando Informações de Pagamento ------------
                             BillingInfo billinginfo = new BillingInfo();
                             DAOBillingInfo dbi = new DAOBillingInfo();
@@ -147,9 +149,11 @@ public class LivrariaEXE {
 
                             System.out.println("Informe o endereço para a entrega:");
                             String adressEntrega = scanner.next();
+
                             // ---- Criando Informações de Entrega ------------
                             ShippingInfo shippinginfo = new ShippingInfo();
                             shippinginfo.setAddress(adressEntrega);
+
                             // ---- Definindo um Entregador ------
                             Shipper f = new Shipper();
                             f.setName("Flash");
@@ -219,7 +223,8 @@ public class LivrariaEXE {
                     System.out.println("Cadastre uma senha:");
                     String criarpsw = scanner.next();
 
-                    userCustomer.setAccount(accountNew); // vinculando usuário com a conta
+                    // vinculando usuário com a conta
+                    userCustomer.setAccount(accountNew); 
                     accountNew.setEmailAddress(criaremail);
                     accountNew.setPassword(criarpsw);
                     DAC.incluir(accountNew);
