@@ -22,7 +22,7 @@ Here are the technologies used in this project.
 
 ## Links
 
-- Repository:https://github.com/jennifervas/livraria-com-java-e-banco
+- Repository:https://github.com/jenniferVC/livraria-com-java-e-banco
 - LinkedIn: https://www.linkedin.com/in/jennifer-vasconcelos-b45476184/
 
 
